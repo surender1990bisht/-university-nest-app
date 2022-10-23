@@ -32,8 +32,6 @@ http://localhost:9898/university?name=Cairo&order=Des
 # unit tests
 $ npm run test
 
-# e2e tests
-$ npm run test:e2e
 
 # test coverage
 $ npm run test:cov
@@ -48,8 +46,5 @@ $ docker build -t university-nest-app .
 $ docker run --rm -v ${PWD}:/app -v /app/node_modules -p 9898:9898 university-nest-app
 
 
-
-# container run command
-$ npm run test:e2e
 
 ```
